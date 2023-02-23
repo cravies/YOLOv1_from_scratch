@@ -13,7 +13,7 @@ Stuff i've done so far
 * i.e [x1,y1,w1,h1,C1,x2,y2,w2,h2,C2]
 * Each grid cell predicts 4 class probability ( 4 "animal" classes ) [p1,p2,p3,p4]
 * So we have [x1,y1,w1,h1,C1,p11,p12,p13,p14,x2,y2,w2,h2,C2,p21,p22,p23,p24] as our prediction
-* Zero out predictions below adjustable threshold
+* Zero out predictions below adjustable threshold - IOU thresh, Conf thresh
 
 # Loss function
 * Implement loss function
