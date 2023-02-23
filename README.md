@@ -3,7 +3,8 @@ My implementation of YOLOv1 from scratch in pytorch
 
 Stuff i've done so far
 * Read in class data from folders
-* Darkne19 backbone architecture
+* Convert labels to [x1,y1,w1,h1,C1,p11,p12,p13,p14,x2,y2,w2,h2,C2,p21,p22,p23,p24] format
+* Darknet19 backbone architecture
 
 ## Logic that needs implementing:
 
